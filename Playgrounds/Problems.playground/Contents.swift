@@ -1,3 +1,6 @@
-import UIKit
+import Foundation
+//MARK: Sum Found From Array - X
+SumFound.sumFound([1,2,3,4,5], 7)
 
-var str = "Hello, playground"
+//MARK: Second small from the Array
+SecondSmallest.secondSmallest([1,2,3,4,5])
