@@ -1,12 +1,13 @@
 import Foundation
 
 
-public class Tree {
-   public var value: Int
+/// T should be Comparable
+public class Tree<T : Comparable> {
+   public var value: T
    public var left: Tree?
    public var right: Tree?
 
-   public init(value: Int) {
+   public init(value: T) {
      self.value = value
      left = nil
      right = nil
@@ -17,7 +18,7 @@ extension Tree {
     /// Appending element to tree through array
     /// - Parameter arr: Passing array Int
     /// - Returns: create Tree following array
-    public static func append (_ arr : [Int]) -> Tree {
+    public static func append (_ arr : [T]) -> Tree {
         let headNode = Tree(value: arr[0])
         for i in 1..<arr.count {
             

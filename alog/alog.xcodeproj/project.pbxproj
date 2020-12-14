@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0DDFA4E225845BBB0063F358 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDFA4E125845BBB0063F358 /* main.swift */; };
 		0DDFA4ED25845C440063F358 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDFA4EC25845C440063F358 /* Tree.swift */; };
+		0DEEB8462587290800770EBE /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEEB8452587290800770EBE /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		0DDFA4DE25845BBB0063F358 /* alog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = alog; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDFA4E125845BBB0063F358 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0DDFA4EC25845C440063F358 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		0DEEB8452587290800770EBE /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		0DDFA4E025845BBB0063F358 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				0DEEB844258728F100770EBE /* LinkedList */,
 				0DDFA4EB25845C360063F358 /* Tree */,
 				0DDFA4E125845BBB0063F358 /* main.swift */,
 			);
@@ -71,6 +74,14 @@
 				0DDFA4EC25845C440063F358 /* Tree.swift */,
 			);
 			path = Tree;
+			sourceTree = "<group>";
+		};
+		0DEEB844258728F100770EBE /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				0DEEB8452587290800770EBE /* LinkedList.swift */,
+			);
+			path = LinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DEEB8462587290800770EBE /* LinkedList.swift in Sources */,
 				0DDFA4E225845BBB0063F358 /* main.swift in Sources */,
 				0DDFA4ED25845C440063F358 /* Tree.swift in Sources */,
 			);
